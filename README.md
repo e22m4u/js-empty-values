@@ -13,13 +13,13 @@ npm install @e22m4u/js-empty-values
 *ESM*
 
 ```js
-import {EmptyValuesDefiner} from '@e22m4u/js-empty-values';
+import {EmptyValuesService} from '@e22m4u/js-empty-values';
 ```
 
 *CommonJS*
 
 ```js
-const {EmptyValuesDefiner} = require('@e22m4u/js-empty-values');
+const {EmptyValuesService} = require('@e22m4u/js-empty-values');
 ```
 
 ## Описание
