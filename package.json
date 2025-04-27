@@ -1,7 +1,7 @@
 {
   "name": "@e22m4u/js-empty-values",
   "version": "0.0.1",
-  "description": "Сервис определения пустых значений для JavaScript",
+  "description": "Сервис централизованного управления пустыми значениями для JavaScript",
   "author": "e22m4u <e22m4u@yandex.ru>",
   "license": "MIT",
   "keywords": [
