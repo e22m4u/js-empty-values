@@ -55,8 +55,7 @@ export class EmptyValuesService extends Service {
    */
   isEmpty(value) {
     const dataType = getDataTypeOf(value);
-    return this._emptyValuesMap.get(dataType)
-      .some(v => isDeepEqual(v, value));
+    return this._emptyValuesMap.get(dataType).some(v => isDeepEqual(v, value));
   }
 
   /**
