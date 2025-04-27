@@ -114,6 +114,8 @@ emptyValues.isEmpty(0);  // true
 emptyValues.isEmpty(1);  // false
 ```
 
+Как видно из примера выше, значение `-1` теперь определяется пустым.
+
 ## Тесты
 
 ```bash
