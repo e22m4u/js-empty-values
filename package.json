@@ -2,7 +2,7 @@
   "name": "@e22m4u/js-empty-values",
   "version": "0.0.1",
   "description": "Сервис централизованного управления пустыми значениями для JavaScript",
-  "author": "e22m4u <e22m4u@yandex.ru>",
+  "author": "Mikhail Evstropov <e22m4u@yandex.ru>",
   "license": "MIT",
   "keywords": [
     "null",
@@ -37,8 +37,8 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@e22m4u/js-format": "~0.1.0",
-    "@e22m4u/js-service": "~0.3.0"
+    "@e22m4u/js-format": "~0.1.8",
+    "@e22m4u/js-service": "~0.3.2"
   },
   "devDependencies": {
     "@commitlint/cli": "~19.8.1",
