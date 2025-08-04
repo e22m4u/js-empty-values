@@ -15,6 +15,8 @@ export function isDeepEqual(firstValue, secondValue) {
     // inputs is primitive, then I can compare them by reference.
     if (a === null || b === null) return a === b;
     if (typeof a !== 'object' || typeof b !== 'object') return a === b;
+    // Check if constructor of the two inputs are the same.
+    if (a.constructor !== b.constructor) return false;
     // Check if the data type of the two inputs are the same,
     // both are arrays or objects. If they are not, return false.
     const dataTypeA = Array.isArray(a) ? 'array' : 'object';

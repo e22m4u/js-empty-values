@@ -218,6 +218,10 @@ describe('isDeepEqual', function () {
       check(a, b, false);
       check(a, c, true);
     });
+
+    it('non-plain object and empty object', function () {
+      check(new Date(), {}, false);
+    });
   });
 
   it('undefined', function () {

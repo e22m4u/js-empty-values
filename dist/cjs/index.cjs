@@ -44,6 +44,7 @@ function isDeepEqual(firstValue, secondValue) {
   const compare = /* @__PURE__ */ __name((a, b) => {
     if (a === null || b === null) return a === b;
     if (typeof a !== "object" || typeof b !== "object") return a === b;
+    if (a.constructor !== b.constructor) return false;
     const dataTypeA = Array.isArray(a) ? "array" : "object";
     const dataTypeB = Array.isArray(b) ? "array" : "object";
     if (dataTypeA !== dataTypeB) return false;
