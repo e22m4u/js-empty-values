@@ -1,6 +1,6 @@
 {
   "name": "@e22m4u/js-empty-values",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Сервис централизованного управления пустыми значениями для JavaScript",
   "author": "Mikhail Evstropov <e22m4u@yandex.ru>",
   "license": "MIT",
