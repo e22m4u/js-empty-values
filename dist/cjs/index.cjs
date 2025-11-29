@@ -118,7 +118,7 @@ var _EmptyValuesService = class _EmptyValuesService extends import_js_service.Se
   /**
    * Set empty values of data type.
    *
-   * @param {string} dataType
+   * @param {DataType} dataType
    * @param {*[]} emptyValues
    * @returns {EmptyValuesService}
    */
@@ -150,7 +150,7 @@ var _EmptyValuesService = class _EmptyValuesService extends import_js_service.Se
   /**
    * Is empty for type.
    *
-   * @param {string} dataType
+   * @param {DataType} dataType
    * @param {*} value
    * @returns {boolean}
    */

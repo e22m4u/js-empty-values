@@ -25,7 +25,7 @@ export class EmptyValuesService extends Service {
   /**
    * Set empty values of data type.
    *
-   * @param {string} dataType
+   * @param {DataType} dataType
    * @param {*[]} emptyValues
    * @returns {EmptyValuesService}
    */
@@ -61,7 +61,7 @@ export class EmptyValuesService extends Service {
   /**
    * Is empty for type.
    *
-   * @param {string} dataType
+   * @param {DataType} dataType
    * @param {*} value
    * @returns {boolean}
    */
